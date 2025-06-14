@@ -50,5 +50,23 @@ nav img{
 }
 .nav-links ul li:hover::after{
   width: 100%;
+}
+.text-box{
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
 
+.text-box h1{
+  font-size: 62px;
+}
+
+.text-box p{
+  font-size: 14px;
+  margin: 10px 0px 40px;
+  color: white;
 }
